@@ -1,0 +1,78 @@
+body {
+    /* background: #eee; */
+    font-family: 'Fira sans';
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+nav h1 {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+nav a {
+    width: 20%;
+    background-color: #007bff;
+    line-height: 3;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+form {
+  max-width: 800px;
+}
+input, textarea {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid rgba(67, 70, 71, 0.884);
+  font-family: inherit;
+}
+textarea {
+  min-height:200px;
+  resize: none;
+}
+.post {
+  padding: 16px;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid rgba(67, 70, 71, 0.884);
+  margin-bottom: 10px;
+}
+.post h2 {
+  margin: 0;
+}
+.post p {
+  margin: 10px 0;
+}
+.post a {
+  color: #007bff;
+  text-decoration: none;
+}
+.btn{
+  padding: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-family: inherit;
+  background: transparent;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.btn__change{
+  color: rgb(0, 83, 0);
+  margin-right: 10px;
+}
+.btn__delete{
+  color: rgb(153, 6, 6);
+}
